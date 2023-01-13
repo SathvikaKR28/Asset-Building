@@ -1,4 +1,4 @@
-public class FetchOrderItem {						//This is a class of execution
+public with sharing class FetchOrderItem {						//This is a class of execution
     
     //This static map contains the already fetched sObject records and doesn't allow SOQL to run again.
 public static Map<Id,SObject> cachedSObjectByIds = new Map<Id, SObject>();
